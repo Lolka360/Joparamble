@@ -83,7 +83,7 @@
 			var/turf/pickedturf = safepick(turfs)
 			if(!pickedturf)
 				return
-			to_chat(L, "<font color='yellow'>INSOLENT WRETCH, YOUR STRUGGLE IS DESERVED.</font>")
+			to_chat(L, "<font color='yellow'>НАГЛЫЙ НЕГОДЯЙ, ВАША БОРЬБА ЗАСЛУЖЕНА.</font>")
 			L.forceMove(pickedturf)
 			return FALSE
 	if(length(message2recognize) > 15)
